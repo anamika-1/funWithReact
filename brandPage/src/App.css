@@ -20,6 +20,12 @@ button {
   color: white;
   font-weight: 500;
 }
+button:hover{
+    border: 1px solid #000;
+    border-radius: 5px;
+    background: white;
+    color: #000;
+}
 .container {
   margin: 0 auto;
   max-width: 1280px;
@@ -36,6 +42,10 @@ nav ul {
   display: flex;
   list-style: none;
   gap: 24px;
+}
+
+nav ul li:hover{
+    color: #d01c28;
 }
 
 .hero {

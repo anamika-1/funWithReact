@@ -1,0 +1,22 @@
+.navigation{
+    padding: 0 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img:hover{
+    height: 80px;
+    width: 80px;
+}
+
+.navigation ul{
+    display: flex;
+    gap: 24px;
+    list-style-type: none;
+    font-weight: 500;
+}
+
+.navigation ul li:hover{
+    font-weight: 800;
+}
